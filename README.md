@@ -116,7 +116,7 @@ It will create a json file (in ``outputs/babel_humanml3d_kitml.json``) structure
 
 ## Credits
 For all the datasets, be sure to read and follow their license agreements, and cite them accordingly.
-If you find this code useful in your research, please cite this paper:
+If you find this code useful in your research, you may cite this paper:
 
 ```bibtex
 @article{petrovich23tmr,
