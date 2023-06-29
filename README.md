@@ -47,6 +47,8 @@ For AMASS (see below), please download the ``SMPL+H G`` version.
 python humanml3d.py
 ```
 
+For now, humanact12 is skipped. I will update the repo with the instructions on how to get the original SMPL fits of humanact12 (based on the PHSPDataset).
+
 ### KITML
 
 1. Download and put [AMASS](https://amass.is.tue.mpg.de/download.php) motions into ``datasets/AMASS/``.

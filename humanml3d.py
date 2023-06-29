@@ -23,6 +23,7 @@ def process_humanml3d(amass_path: str, humanml3d_path: str, outputs: str = "outp
     texts_path = os.path.join(humanml3d_path, "HumanML3D/texts/")
 
     dico = {}
+    print("For now, skipping humanact12 motions")
     for i in trange(len(index_file)):
         element = index_file.iloc[i]
 
@@ -35,6 +36,7 @@ def process_humanml3d(amass_path: str, humanml3d_path: str, outputs: str = "outp
         path = source_path.replace("./pose_data/", "").replace(".npy", "")
 
         if "humanact12" in path:
+            continue
             path = path.replace("humanact12/humanact12/", "humanact12/")
 
         keyid = new_name.replace(".npy", "")
